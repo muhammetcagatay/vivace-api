@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HV3bdrkEzUpXWvbD005OdjU37smuibajqMxZFmrEihIBbbGF5J96PcIYguS1Z5bs3TeovKAuqRfCbrlRhmwcnQ==",
+  "dgSpecHash": "85ePHk3ySpyUlBBagPjz3ZMAnXu/8Gf2rx7qlIjdFKMqrj+j1RZUBu3V5xFJxVYFwv2jvs2cR78VXWHiM0qz8A==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
+  "projectFilePath": "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

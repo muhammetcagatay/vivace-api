@@ -41,13 +41,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#about-the-project">Built With</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#installation">Installation</a></li>
     <li>
       <a href="#devolopment">Devolopment</a>
       <ul>
-        <li><a href="#filestructure">File Structure</a></li>
-        <li><a href="#databasedesign">Database Design</a></li>
+        <li><a href="#file-structure">File Structure</a></li>
+        <li><a href="#database-design">Database Design</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -57,7 +57,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## :beginner: About The Project
+
+##  About The Project
 
 ![Product Name Screen Shot](https://kinsta.com/wp-content/uploads/2019/12/wordpress-rest-api-1024x512.jpg)
 
@@ -76,7 +77,7 @@ Use the `BLANK_README.md` to get started.
 
 
 
-## :hammer: Built With
+## Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -92,7 +93,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#top">Back To Top</a>)</p>
 
 
-## :electric_plug: Installation
+## Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -112,12 +113,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## :wrench: Devolopment
+## Devolopment
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### :file_folder: File Structure
+###  File Structure
 
 Add a file structure here with the basic details about files, below is an example.
 
@@ -144,7 +145,7 @@ Add a file structure here with the basic details about files, below is an exampl
 
 
 
-### :nut_and_bolt: Database Design
+### Database Design
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -167,7 +168,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## :zap: Usage
+##  Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -178,7 +179,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## :rocket: Roadmap
+##  Roadmap
 
 - [x] Database Design
 - [x] Creating the core layer
@@ -194,7 +195,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTACT -->
-## :question: Contact
+## Contact
 
 Muhammet Çağatay - muhammetcagatayy@gmail.com
 

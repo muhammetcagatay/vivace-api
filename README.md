@@ -62,16 +62,36 @@
 
 ![Product Name Screen Shot](https://kinsta.com/wp-content/uploads/2019/12/wordpress-rest-api-1024x512.jpg)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project was developed with .Net 6 framework. While developing the project, I used the N-Layer Architecture approach as the architectural approach.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+There are 3 layers in the developed project:
+* **Core Layer**<br>
+  ```sh
+   In this layer, the models in the database were created. In addition interfaces of repository and service classes 
+   have been added.
+   
+   In addition, in this layer, the interface of the UnitOfWork class, which will perform all operations to be done with 
+   the Database through a single channel and keep it in memory, has been developed.
+   
+   Data Transfer Objects were created in order to request and respond to the data appropriately.
+   
+   ```
+* **Data Layer**<br>
+  ```sh
+   In this layer, DbContext class was created and migration operations were performed. In addition, the models created in
+   the core layer were configured with the help of fluent api.
+   
+   Repository classes and UnitOfWork classes have been developed.
+   
+   Developed the UnitOfWork class, which will perform all operations with the database through a single 
+   channel and keep them in memory.
+   ```
+* **Service Layer**<br>
+  ```sh
+   Service interfaces developed in the Core layer were implemented.
+   
+   Improved mapping classes used to transform data.
+   ```
 
 <p align="right">(<a href="#top">Back To Top</a>)</p>
 
@@ -81,8 +101,8 @@ Use the `BLANK_README.md` to get started.
 
 I used the following technologies while creating this API project.
 
-* [.Net Core 6.0](https://docs.microsoft.com/tr-tr/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
-* [Entity Framework Core](https://docs.microsoft.com/tr-tr/ef/core/)
+* [.Net Core 6](https://docs.microsoft.com/tr-tr/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
+* [Entity Framework Core 6](https://docs.microsoft.com/tr-tr/ef/core/)
 * [SQL Server](https://www.google.com/search?client=opera&q=sql+server&sourceid=opera&ie=UTF-8&oe=UTF-8)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/tr/vs/)
 

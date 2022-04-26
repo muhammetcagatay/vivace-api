@@ -5,7 +5,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -20,7 +19,7 @@
   <h3 align="center">Vivage API</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    API Project About Music And Singers
     <br />
     <!--
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -42,13 +41,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#about-the-project">Built With</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#installation">Installation</a></li>
     <li>
       <a href="#devolopment">Devolopment</a>
       <ul>
-        <li><a href="#filestructure">File Structure</a></li>
-        <li><a href="#databasedesign">Database Design</a></li>
+        <li><a href="#file-structure">File Structure</a></li>
+        <li><a href="#database-design">Database Design</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -58,7 +57,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## :beginner: About The Project
+
+##  About The Project
 
 ![Product Name Screen Shot](https://kinsta.com/wp-content/uploads/2019/12/wordpress-rest-api-1024x512.jpg)
 
@@ -77,75 +77,56 @@ Use the `BLANK_README.md` to get started.
 
 
 
-## :hammer: Built With
+## Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+I used the following technologies while creating this API project.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [.Net Core 6.0](https://docs.microsoft.com/tr-tr/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
+* [Entity Framework Core](https://docs.microsoft.com/tr-tr/ef/core/)
+* [SQL Server](https://www.google.com/search?client=opera&q=sql+server&sourceid=opera&ie=UTF-8&oe=UTF-8)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/tr/vs/)
 
 <p align="right">(<a href="#top">Back To Top</a>)</p>
 
 
-## :electric_plug: Installation
+## Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   git clone https://github.com/muhammetcagatay/VivaceAPI.git
    ```
 
 <p align="right">(<a href="#top">Back To Top</a>)</p>
 
 
 <!-- GETTING STARTED -->
-## :wrench: Devolopment
+## Devolopment
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### :file_folder: File Structure
+###  File Structure
 
 Add a file structure here with the basic details about files, below is an example.
 
 ```
 .
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
+├── API
+│   ├── Controllers
+├── Core
+│   ├── Models
+│   ├── Repositories
+├── Data
+│   ├── Configurations
+├── Service
+│   ├── Services
+├── Vivace.sln
 └── README.md
 ```
 
 
 
-### :nut_and_bolt: Database Design
+### Database Design
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -168,7 +149,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## :zap: Usage
+##  Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -179,7 +160,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## :rocket: Roadmap
+##  Roadmap
 
 - [x] Database Design
 - [x] Creating the core layer
@@ -195,7 +176,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTACT -->
-## :question: Contact
+## Contact
 
 Muhammet Çağatay - muhammetcagatayy@gmail.com
 
@@ -213,17 +194,15 @@ Project Link: [Repository](https://github.com/muhammetcagatay/VivaceAPI)
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/muhammetcagatay/VivaceAPI/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/muhammetcagatay/VivaceAPI/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/muhammetcagatay/VivaceAPI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[issues-url]: https://github.com/muhammetcagatay/VivaceAPI/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/muhammetcagatayy/
 [product-screenshot]: images/screenshot.png
 
 

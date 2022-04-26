@@ -1,0 +1,14 @@
+D:\Projects\.Net\VivaceAPI\Vivace.Core\bin\Debug\net6.0\Vivace.Core.deps.json
+D:\Projects\.Net\VivaceAPI\Vivace.Core\bin\Debug\net6.0\Vivace.Core.dll
+D:\Projects\.Net\VivaceAPI\Vivace.Core\bin\Debug\net6.0\ref\Vivace.Core.dll
+D:\Projects\.Net\VivaceAPI\Vivace.Core\bin\Debug\net6.0\Vivace.Core.pdb
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.csproj.AssemblyReference.cache
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.AssemblyInfoInputs.cache
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.AssemblyInfo.cs
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.csproj.CoreCompileInputs.cache
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.dll
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\ref\Vivace.Core.dll
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.pdb
+D:\Projects\.Net\VivaceAPI\Vivace.Core\bin\Debug\net6.0\Vivace.Core.runtimeconfig.json
+D:\Projects\.Net\VivaceAPI\Vivace.Core\obj\Debug\net6.0\Vivace.Core.genruntimeconfig.cache

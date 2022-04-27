@@ -34,28 +34,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#built-with">Built With</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li>
-      <a href="#devolopment">Devolopment</a>
-      <ul>
-        <li><a href="#file-structure">File Structure</a></li>
-        <li><a href="#database-design">Database Design</a></li>
-      </ul>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 
 ##  About The Project
@@ -67,31 +45,35 @@ This project was developed with .Net 6 framework. While developing the project, 
 There are 3 layers in the developed project:
 * **Core Layer**<br>
   ```sh
-   In this layer, the models in the database were created. In addition interfaces of repository and service classes 
-   have been added.
+   In this layer, the models in the database were created. In addition interfaces 
+   of repository and service classes have been added.
    
-   In addition, in this layer, the interface of the UnitOfWork class, which will perform all operations to be done with 
-   the Database through a single channel and keep it in memory, has been developed.
+   In addition, in this layer, the interface of the UnitOfWork class, which will 
+   perform all operations to be done with the Database through a single channel 
+   and keep it in memory, has been developed.
    
    Data Transfer Objects were created in order to request and respond to the data appropriately.
    
    ```
+   
 * **Data Layer**<br>
   ```sh
-   In this layer, DbContext class was created and migration operations were performed. In addition, the models created in
-   the core layer were configured with the help of fluent api.
+   In this layer, DbContext class was created and migration operations were performed. 
+   In addition, the models created in the core layer were configured with the help of fluent api.
    
    Repository classes and UnitOfWork classes have been developed.
    
-   Developed the UnitOfWork class, which will perform all operations with the database through a single 
-   channel and keep them in memory.
+   Developed the UnitOfWork class, which will perform all operations with the 
+   database through a single channel and keep them in memory.
    ```
+   
 * **Service Layer**<br>
   ```sh
    Service interfaces developed in the Core layer were implemented.
    
    Improved mapping classes used to transform data.
    ```
+   
 
 <p align="right">(<a href="#top">Back To Top</a>)</p>
 
@@ -107,108 +89,6 @@ I used the following technologies while creating this API project.
 * [Visual Studio 2022](https://visualstudio.microsoft.com/tr/vs/)
 
 <p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-## Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/muhammetcagatay/VivaceAPI.git
-   ```
-
-<p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-## Devolopment
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-###  File Structure
-
-Add a file structure here with the basic details about files, below is an example.
-
-```
-.
-├── API
-│   ├── Controllers
-├── Core
-│   ├── Models
-│   ├── Repositories
-├── Data
-│   ├── Configurations
-├── Service
-│   ├── Services
-├── Vivace.sln
-└── README.md
-```
-
-
-
-### Database Design
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-##  Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-##  Roadmap
-
-- [x] Database Design
-- [x] Creating the core layer
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] English
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Muhammet Çağatay - muhammetcagatayy@gmail.com
-
-Project Link: [Repository](https://github.com/muhammetcagatay/VivaceAPI)
-
-<p align="right">(<a href="#top">Back To Top</a>)</p>
-
-
-
-
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

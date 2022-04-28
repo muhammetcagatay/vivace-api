@@ -1945,11 +1945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
+      "projectUniqueName": "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
       "projectName": "Vivace.Data",
-      "projectPath": "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
+      "projectPath": "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\Vivace.Data.csproj",
       "packagesPath": "C:\\Users\\MuhammetÇağatay\\.nuget\\packages\\",
-      "outputPath": "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\obj\\",
+      "outputPath": "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MuhammetÇağatay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1966,8 +1966,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Core\\Vivace.Core.csproj": {
-              "projectPath": "d:\\Projects\\.Net\\VivaceAPI\\Vivace.Core\\Vivace.Core.csproj"
+            "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Core\\Vivace.Core.csproj": {
+              "projectPath": "D:\\Projects\\.Net\\VivaceAPI\\Vivace.Core\\Vivace.Core.csproj"
             }
           }
         }

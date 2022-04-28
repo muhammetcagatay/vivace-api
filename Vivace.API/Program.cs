@@ -19,9 +19,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(ICategoryService), typeof(CategoryService));
+builder.Services.AddScoped(typeof(ISongService), typeof(SongService));
+builder.Services.AddScoped(typeof(ISingerService), typeof(SingerService));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddAutoMapper(typeof(CategoryMapping));
+builder.Services.AddAutoMapper(typeof(SongMapping));
+builder.Services.AddAutoMapper(typeof(SingerMapping));
 
 builder.Services.AddDbContext<VivaceDbContext>(x =>
 {

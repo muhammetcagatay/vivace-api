@@ -32,6 +32,7 @@ namespace Vivace.Service.Services
         {
             var category = await repository.
                 Where(x => x.ID == id).
+                Where(x => !x.IsDeleted).
                 SingleOrDefaultAsync();
 
             var categoryResponseDto = mapper.Map<CategoryResponseDto>(category);
@@ -40,7 +41,7 @@ namespace Vivace.Service.Services
         }
         public async Task<Response<IEnumerable<CategoryResponseDto>>> GetAllAsync()
         {
-            var categories = await repository.GetAllAsync();
+            var categories = await repository.Where(x => !x.IsDeleted).ToListAsync();
 
             var categoriesResponseDto = mapper.Map<IEnumerable<CategoryResponseDto>>(categories);
 

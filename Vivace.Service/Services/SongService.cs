@@ -32,6 +32,7 @@ namespace Vivace.Service.Services
         {
             var song = await repository.
                 Where(x => x.ID == id).
+                Where(x => !x.IsDeleted).
                 SingleOrDefaultAsync();
 
             var songResponseDto = mapper.Map<SongResponseDto>(song);
@@ -40,7 +41,7 @@ namespace Vivace.Service.Services
         }
         public async Task<Response<IEnumerable<SongResponseDto>>> GetAllAsync()
         {
-            var songs = await repository.GetAllAsync();
+            var songs = await repository.Where(x => !x.IsDeleted).ToListAsync();
 
             var songsResponseDto = mapper.Map<IEnumerable<SongResponseDto>>(songs);
 

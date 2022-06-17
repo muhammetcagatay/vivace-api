@@ -1,6 +1,5 @@
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Service.deps.json
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Service.dll
-D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\ref\Vivace.Service.dll
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Service.pdb
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Core.dll
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Data.dll
@@ -17,3 +16,4 @@ D:\Projects\.Net\VivaceAPI\Vivace.Service\obj\Debug\net6.0\ref\Vivace.Service.dl
 D:\Projects\.Net\VivaceAPI\Vivace.Service\obj\Debug\net6.0\Vivace.Service.pdb
 D:\Projects\.Net\VivaceAPI\Vivace.Service\bin\Debug\net6.0\Vivace.Service.runtimeconfig.json
 D:\Projects\.Net\VivaceAPI\Vivace.Service\obj\Debug\net6.0\Vivace.Service.genruntimeconfig.cache
+D:\Projects\.Net\VivaceAPI\Vivace.Service\obj\Debug\net6.0\refint\Vivace.Service.dll

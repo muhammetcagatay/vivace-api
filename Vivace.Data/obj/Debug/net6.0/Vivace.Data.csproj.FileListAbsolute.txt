@@ -1,6 +1,5 @@
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Data.deps.json
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Data.dll
-D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\ref\Vivace.Data.dll
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Data.pdb
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Core.dll
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Core.pdb
@@ -15,3 +14,4 @@ D:\Projects\.Net\VivaceAPI\Vivace.Data\obj\Debug\net6.0\ref\Vivace.Data.dll
 D:\Projects\.Net\VivaceAPI\Vivace.Data\obj\Debug\net6.0\Vivace.Data.pdb
 D:\Projects\.Net\VivaceAPI\Vivace.Data\bin\Debug\net6.0\Vivace.Data.runtimeconfig.json
 D:\Projects\.Net\VivaceAPI\Vivace.Data\obj\Debug\net6.0\Vivace.Data.genruntimeconfig.cache
+D:\Projects\.Net\VivaceAPI\Vivace.Data\obj\Debug\net6.0\refint\Vivace.Data.dll
